@@ -1,106 +1,205 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
-      rel="stylesheet"
-    />
-    <title>Kimyunyeong Portfolio</title>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <nav>
-      <img class="logo" src="images/logo.png" alt="yunyeong" />
-      <ul class="nav-bar">
-        <li><a href="#about-me"> About me</a></li>
-        <li><a href=""> Github</a></li>
-        <li><a href="pages/contact.html"> Contact me</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
-      <div class="hero-info">
-        <h1 id="name">Kim yunyeong</h1>
-        <p>
-          I am a dreamer , and I love to explore towards to the sophiscated word
-          !
-        </p>
-        <div class="styled-break"></div>
-        <div class="button">포트폴리오</div>
-      </div>
-      <div>
-        <img
-          class="hero-image"
-          src="images/hire.png"
-          alt="working illustraiton of a woman"
-        />
-      </div>
-    </div>
-    <section>
-      <div class="about-me">
-          <img
-          class="avatar"
-          src="images/win.jpg"
-          alt="avatar of me"
-        />
-      </div>
-      <div class="info">
-          <h2><a name="about-me"> About me</a></h2>
-          <p>Born in Korea and raised in the seoul I discovered my passion for software developement when building my first e-commerce website</p>
-      </div>
-      </div>
+<head>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+	href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+	rel="stylesheet">
+<link
+	href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+	rel="stylesheet" />
+<script src="https://kit.fontawesome.com/4b9845fccc.js"
+	crossorigin="anonymous"></script>
 
-    </section>
+<title>Kimyunyeong Portfolio</title>
+<meta charset="UTF-8" />
+</head>
+<body>
+	<nav>
+		<img class="logo" src="images/logo.png" alt="yunyeong" />
+		<ul class="nav-bar">
+			<li><a href="#about-me"> About me</a></li>
+			<li><a href=""> Github</a></li>
+			<li><a href="pages/contact.html"> Blog</a></li>
+		</ul>
+	</nav>
+	<div class="hero">
+		<div class="hero-info">
+			<h1 id="name">Kim yunyeong</h1>
+			<p>Towards the future, with a positive mind.</p>
+			<p class="korean">
+				1993.03.20<br>
+				<br>-그린컴퓨터 자바/스프링 6개월수료<br>-강남 아이티 프로그래밍 3개월 수료
+			</p>
+			<div class="styled-break"></div>
+			<ul class="button-ul">
+				<li><a href="#portfolio" class="korean">
+					<div class="button">포트폴리오</div>
+				</a></li>
+				<li><a href="#portfolio" class="korean">
+					<div class="button">다운로드</div>
+				</a></li>
+			</ul>
+		</div>
+		<div>
+			<img class="hero-image" src="images/hire.png"
+				alt="working illustraiton of a woman" />
+		</div>
+	</div>
+	<section>
+		<div class="about-me">
+			<img class="avatar" src="images/win.jpg" alt="avatar of me" />
+		</div>
+		<div class="info">
+			<h2>
+				<a name="about-me"> About me</a>
+			</h2>
+			<p class="korean">
+				소프트웨어는 정직하다! <br>노력을 배신하지 않는 정직한 컴퓨터 언어에 매료되어 끝없는 발전을 꿈꾸며 고난을
+				즐기는 저는 <span class="highlight">Dreamer </span>이자 <span
+					class="highlight">Go Getter!</span> 입니다.
+			</p>
+		</div>
+	</div>
 
-    <section>
-        <div class="test"></div>
-        <div class="test"></div>
-        <div class="test" id="main"></div>
-        <div class="test"></div>
-        <div class="test"></div>
-    </section>
-    <section>
-      <form action="">
-        <h2>Contact Me</h2>
-        <div class="input-section">
-          <div class="input-group">
-         <label for="first-name">First name:</label>
-         <input type="text" id="first-name" name="first-name"></input>
-        </div>
-        <div class="input-group">
-         <label for="last-name">Last  name:</label>
-         <input type="text" id="last-name" name="last-name"></input>
-        </div>
-        </div>
+	</section>
 
-        <div class="input-section">
-         <input type="radio" id="office" name="office" value="office"></input>
-         <label for="office">Office</label>
-         <input type="radio" id="remote" name="office" value="office"></input>
-         <label for="office">Remote</label>
-         <input type="radio" id="other" name="office" value="office"></input>
-         <label for="office">Other</label>
-        </div>
+	<section>
+		<div class="styled-break-long"></div>
+	</section>
 
-        <div class="input-section">
-         <input type="checkbox" id="contract" name="contract" value="contract"></input>
-         <label for="contract">Contract Work</label>
-         <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
-         <label for="contract">Full time</label>
-         <input type="checkbox" id="Sponsorship" name="Sponsorship" value="Sponsorship"></input>
-         <label for="contract">Sponsorship Work</label>
-        </div>
-        <input class="button" type="submit" value="submit"></input>
-      </form>
-    </section>
-    <footer>
-      <ul>
-        <li><a href="http://www.naver.com">About me</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Github</a></li>
-      </ul>
-    </footer>
-  </body>
+	<section>
+		<h2>
+			<a name="portfolio"> PORTFOLIO</a>
+		</h2>
+		<div class="portfolio-section">
+
+			<div>
+				<ul class="port-ul">
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide1.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide2.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide3.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide4.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide5.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide6.jpg"></li>
+				</ul>
+				<ul class="port-ul">
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide7.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide8.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide9.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide10.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide11.jpg"></li>
+					<li><img class="portfolio-image" alt="portfolio"
+						src="powerpoint/slide12.jpg"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="styled-break"></div>
+		<div class="portfolio-section2">
+		<ul class="portfolio-show">
+			<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide1.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide2.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide3.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide4.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide5.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide6.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide7.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide8.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide9.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide10.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide11.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide12.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide13.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide14.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide15.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide16.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide17.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide18.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide19.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide20.jpg"></li>
+				<li><img class="portfolio-image" alt="portfolio"
+				src="powerpoint/slide21.jpg"></li>
+				
+		</ul>
+		
+	</div>
+
+
+	</section>
+
+	<section>
+		<form action="">
+			<h2>Contact Me</h2>
+			<div class="input-section">
+				<div class="input-group">
+					<label for="first-name">First name:</label> <input type="text"
+						id="first-name" name="first-name"></input>
+				</div>
+				<div class="input-group">
+					<label for="last-name">Last name:</label> <input type="text"
+						id="last-name" name="last-name"></input>
+				</div>
+			</div>
+
+			<div class="input-section">
+				<input type="radio" id="office" name="office" value="office"></input>
+				<label for="office">Office</label> <input type="radio" id="remote"
+					name="office" value="office"></input> <label for="office">Remote</label>
+				<input type="radio" id="other" name="office" value="office"></input>
+				<label for="office">Other</label>
+			</div>
+
+			<div class="input-section">
+				<input type="checkbox" id="contract" name="contract"
+					value="contract"></input> <label for="contract">Contract
+					Work</label> <input type="checkbox" id="full-time" name="full-time"
+					value="full-time"></input> <label for="contract">Full time</label>
+				<input type="checkbox" id="Sponsorship" name="Sponsorship"
+					value="Sponsorship"></input> <label for="contract">Sponsorship
+					Work</label>
+			</div>
+			<input class="button" type="submit" value="submit"></input>
+		</form>
+	</section>
+	<footer>
+		<ul>
+			<li><a href="http://www.naver.com">About me</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">Github</a></li>
+		</ul>
+	</footer>
+</body>
 </html>
